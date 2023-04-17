@@ -26,10 +26,10 @@ typeData.push(typeNull, typeString, typeNumber, typeUndefined)
 typeData.sort((a, b) => b.length - a.length)
 
 
-console.log(typeNull);
 console.log(typeString);
-console.log(typeNumber);
+console.log(typeNull);
 console.log(typeUndefined);
+console.log(typeNumber);
 
 console.log(typeData) // Отсортированные массивы
 
