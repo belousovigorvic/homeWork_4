@@ -20,16 +20,14 @@ for (var i = 0; i < list.length; i++) {
     }
 }
 
-var typeData = []
-typeData.push(typeNull, typeString, typeNumber, typeUndefined)
-
-typeData.sort((a, b) => b.length - a.length)
-
-
 console.log(typeString);
 console.log(typeNull);
 console.log(typeUndefined);
 console.log(typeNumber);
+
+var typeData = []
+typeData.push(typeNull, typeString, typeNumber, typeUndefined)
+typeData.sort((a, b) => b.length - a.length)
 
 console.log(typeData) // Отсортированные массивы
 
